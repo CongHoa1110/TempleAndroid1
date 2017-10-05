@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hoathan.templeandroid1.ui.fragment.CameraFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:textSize="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera" />
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/btn_camera_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"/>
+
+</LinearLayout>

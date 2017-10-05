@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="cameraadssgdhgfgggkjhkjhkhkjhkjhjkhkhkhkhkhkhkhkhkhkhhk"
+            android:icon="@drawable/ic_camera_enhance_black_24dp"
+            android:id="@+id/nav_camera"/>
+        <item android:title="Gallery"
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_gavel_black_24dp"/>
+    </group>
+    <item android:title="hoa than android">
+        <menu >
+            <group android:checkableBehavior="single">
+                <item android:title="Gallery"
+                    android:id="@+id/nav_gallery5"
+                    android:icon="@drawable/ic_gavel_black_24dp"/>
+                <item android:title="Gallery"
+                    android:id="@+id/nav_gallery6"
+                    android:icon="@drawable/ic_gavel_black_24dp"/>
+                <item android:title="Gallery"
+                    android:id="@+id/nav_gallery7"
+                    android:icon="@drawable/ic_gavel_black_24dp"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="hoa than android">
+        <menu >
+            <group android:checkableBehavior="single">
+                <item android:title="Gallery"
+                    android:id="@+id/nav_gallery51"
+                    android:icon="@drawable/ic_gavel_black_24dp"/>
+                <item android:title="Gallery"
+                    android:id="@+id/nav_gallery61"
+                    android:icon="@drawable/ic_gavel_black_24dp"/>
+                <item android:title="Gallery"
+                    android:id="@+id/nav_gallery71"
+                    android:icon="@drawable/ic_gavel_black_24dp"/>
+            </group>
+        </menu>
+    </item>
+</menu>

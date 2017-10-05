@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/holo_red_light"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Home"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_NextFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Next Fragment" />
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/btn_nextViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next ViewPager hinh Anh"/>
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/btn_nextViewPagerDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next ViewPager Demo"/>
+
+
+</LinearLayout>

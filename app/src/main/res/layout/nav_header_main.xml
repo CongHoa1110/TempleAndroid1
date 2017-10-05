@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="#49c653"
+    android:padding="10dp"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <ImageView
+        android:onClick="onClick"
+        android:id="@+id/img_navi"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        android:padding="2dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/mourinho" />
+    <TextView
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:text="moninho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:text="Mancheter unit "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
