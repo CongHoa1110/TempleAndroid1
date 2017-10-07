@@ -18,7 +18,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TabHost;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.hoathan.templeandroid.R;
 import com.example.hoathan.templeandroid1.ui.BaseActivity;
@@ -65,7 +64,7 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
 
                 // neu stack cua tab chuyen den chua  co phan tu nao thi push fragment cua tab day,
                 // con ko thi se lay fragment cuoi cung cua stack do de hien thi
-             /*   if (typeStackMap.get(tabId).size() == 0) {
+                if (typeStackMap.get(tabId).size() == 0) {
                     if (tabId.equals(TITLE_HOME)) {
                         pushFragment(new HomeFragment(), true);
                         
@@ -79,13 +78,13 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
                     }
                 } else {
                     pushFragment(typeStackMap.get(tabId).lastElement(), false);
-                }*/
+                }
                 if (tabId.equals(TITLE_SETTINGS)){
                     showToolbar(false);
                 }else {
                     showToolbar(true);
                 }
-             switch (tabId){
+             /*switch (tabId){
                  case TITLE_HOME:
                      if (typeStackMap.get(tabId).size() > 1 ){
                          Toast.makeText(MainActivity.this, "aaa", Toast.LENGTH_SHORT).show();
@@ -105,7 +104,7 @@ public class MainActivity extends BaseActivity implements NavigationView.OnNavig
                      getSupportActionBar().setTitle("Setting");
 
                      break;
-             }
+             }*/
             }
         });
         initView();

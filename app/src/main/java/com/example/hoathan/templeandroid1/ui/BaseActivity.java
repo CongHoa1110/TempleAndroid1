@@ -85,7 +85,7 @@ public abstract class BaseActivity extends AppCompatActivity {
             Fragment fragment = currentStack.elementAt(currentStack.size() - 2);
             currentStack.pop();
             if (fragment != null) {
-                pushFragment(fragment, true);
+                pushFragment(fragment, false);
             }
 
         }

@@ -5,4 +5,5 @@ package com.example.hoathan.templeandroid1.ui.activity;
  */
 
 public class SplashScreenActivity {
+
 }
